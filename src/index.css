@@ -1,0 +1,165 @@
+body {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  background-color: #374785;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/************ section************ */
+
+@media screen and (max-width: 350px) {
+  a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-center {
+    margin: 20px;
+    width: 60vw;
+  }
+
+  .div-background {
+    width: 250px;
+  }
+
+  .user-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .alert {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  .form-control {
+    margin-top: 2rem;
+  }
+  .form-input::placeholder {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+
+/************ form************ */
+
+.section-center {
+  max-width: 700px;
+  background: #f1f5f8;
+
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+}
+
+.section-center:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.icon-center {
+  text-align: center;
+}
+
+.github-icon {
+  font-size: 100px;
+  color: #063251;
+
+  margin: auto;
+}
+
+.finder-form h3 {
+  margin-top: 1rem;
+  font-size: 26px;
+  justify-content: center;
+  color: #063251;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.search-div {
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px solid black;
+}
+
+.input-parent {
+  display: flex;
+}
+
+.form-input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 0 0 10px;
+  font-size: 35px;
+  color: #063251;
+}
+
+.form-input::placeholder {
+  color: #6a8497;
+}
+
+/* users.js */
+
+.div-margin {
+  margin-top: 10px;
+}
+
+a {
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: #063251;
+}
+
+.user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.link-section {
+  display: flex;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 20px;
+  margin-left: 10px;
+  align-items: center;
+}
+.link-section:hover {
+  background: rgb(206, 206, 206);
+}
+
+/* ************ALert***************** */
+
+.alert {
+  margin-bottom: 1.5rem;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+
+  text-transform: capitalize;
+}
+.alert-error {
+  color: #721c24;
+  background: #f8d7da;
+}
