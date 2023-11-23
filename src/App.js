@@ -1,11 +1,7 @@
 import React from "react";
-import MainFinder from "./components/maincomponent/MainFinder";
+import Searchbar from "./components/searchbar/SearchBar";
 function App() {
-  return (
-    <div>
-      <MainFinder />
-    </div>
-  );
+  return <Searchbar />;
 }
 
 export default App;
